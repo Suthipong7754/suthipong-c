@@ -1,0 +1,11 @@
+n = int(input())
+print('--Customers Information--')
+for i in range(n):
+    name = str(input())
+    year = int(input())
+    male = str(input())
+    age = 2017 - int(year)
+    print(name + " ", end = '')
+    print("(age :",end =' ')
+    print(age, end = '')
+    print(")")
